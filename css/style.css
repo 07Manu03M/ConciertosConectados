@@ -61,6 +61,7 @@
 .left_bar {
     /* background: hotpink; */
     display: flex;
+    
     gap: 12px;
 }
 .left_bar img{
@@ -74,24 +75,82 @@
     font-family: "Inter-Regular";
 }
 
-/* **************** Carrusel 1 ***************+
+/* **************** Carrusel 1 *************** */
 
-.carrusel{
-    background: red;
+.carrusel-container{
+    /* background: aqua; */
+    padding: 10px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    bottom: 10px;
 }
 
+.carrusel-1{
+    /* background: brown; */
+    padding: 5px;
+    display: flex;
+    font-family: "Inter-Regular";
+}
+
+/********* Decoracion por parrafos ************/
+
 .carrusel-1 p:nth-child(1) {
-    color: red; 
+    background: var(--color-3); 
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: 28px;
+    font-size: 12px;
+    margin-right: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
 .carrusel-1 p:nth-child(2) {
-    color: blue; 
+    background: var(--color-4); 
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: 28px;
+    font-size: 12px;
+    margin-right: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
 .carrusel-1 p:nth-child(3) {
-    color: green;
+    background: var(--color-5); 
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: 28px;
+    font-size: 12px;
+    margin-right: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
 .carrusel-1 p:nth-child(4) {
-    color: orange;
-} */
+    background: var(--color-6); 
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: 28px;
+    font-size: 12px;
+    margin-right: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+}

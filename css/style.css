@@ -154,3 +154,99 @@
     flex-direction: column;
     white-space: nowrap;
 }
+
+
+/******************* Main *********************/
+
+.caja_main {
+    background: red;
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+}
+.div_menu_superior {
+    background: rebeccapurple;
+    margin-bottom: 16px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.div_menu_superior span{
+    background: firebrick;
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+.div_menu_superior p{
+    background: blue;
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.imagen_concert img{
+    background: burlywood;
+}
+.imagen_concert{
+    background: chocolate;
+}
+.div_concert {
+    background: brown;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 97%;
+    height: 90%;
+    margin: auto;
+}
+.div_difuminado {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.div_difuminado p{
+    background: yellowgreen;
+    width: 100%;
+    font-size: 12px;
+    font-family: "Inter-Semibold";
+}
+.div_location {
+    background: aqua;
+    display: flex;
+}
+.div_location img{
+    background: aquamarine;
+    width: 10px;
+    height: 12px;
+}
+.div_location p{
+    background: green;
+    font-family: "Inter-Regular";
+}
+.div_fecha {
+    background: violet;
+    display: flex;
+}
+.div_fecha img{
+    background: slateblue;
+    width: 11px;
+    height: 12px;
+}
+.div_fecha p{
+    background: pink;
+    font-family: "Inter-Regular";
+}
+.div_precio {
+    background: peru;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div_precio p{
+    background: purple;
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.div_precio h1{
+    background: palegreen;
+    font-size: 16px;
+    font-family: "Inter-Semibold";
+    
+}

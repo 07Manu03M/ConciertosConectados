@@ -6,3 +6,92 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+/*************************** Header *************************/
+
+.encabezado {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 43px;
+
+}
+.div_icons {
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.div_icons img{
+    /* background: aqua; */
+    width: 32px;
+    height: 32px;
+}
+.div_title {
+    /* background: rebeccapurple; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.el1h1{
+    /* background: chartreuse; */
+    font-size: 30px;
+    font-family: "Inter-Semibold";
+}
+.el2h1{
+    /* background: green; */
+    font-size: 30px;
+    color: var(--color-2);
+    font-family: "Inter-Semibold";
+}
+.div_search {
+    /* background: salmon; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.div_search img{
+    /* background: magenta; */
+    width: 17px;
+    height: 17px;
+}
+.left_bar {
+    /* background: hotpink; */
+    display: flex;
+    gap: 12px;
+}
+.left_bar img{
+    /* background: thistle; */
+    width: 17px;
+    height: 17px;
+}
+.left_bar p{
+    /* background: firebrick; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+
+/* **************** Carrusel 1 ***************+
+
+.carrusel{
+    background: red;
+}
+
+.carrusel-1 p:nth-child(1) {
+    color: red; 
+}
+
+.carrusel-1 p:nth-child(2) {
+    color: blue; 
+}
+
+.carrusel-1 p:nth-child(3) {
+    color: green;
+}
+
+.carrusel-1 p:nth-child(4) {
+    color: orange;
+} */

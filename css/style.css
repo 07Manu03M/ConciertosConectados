@@ -163,6 +163,7 @@
     padding: 5px;
     width: 95%;
     height: 260px;
+    margin-right: 10%;
     margin: auto;
 }
 .div_menu_superior {
@@ -267,4 +268,29 @@
     font-size: 16px;
     font-family: "Inter-Semibold";
     
+}
+
+/* Carrusel */
+.carrusel-container {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.carrusel-track {
+    display: flex;
+    gap: 12px;
+    width: max-content;
+}
+
+.carrusel-item {
+    flex: 0 0 90%;
+    scroll-snap-align: center;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

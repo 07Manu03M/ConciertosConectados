@@ -161,15 +161,14 @@
 .caja_main {
     /* background: red; */
     padding: 5px;
-    width: 95%;
+    width: 98%;
     height: 260px;
-    margin-right: 10%;
     margin: auto;
 }
 .div_menu_superior {
     /* background: rebeccapurple; */
     margin-bottom: 16px;
-    padding: 5px;
+    /* padding: 5px; */
     display: flex;
     justify-content: space-between;
 }
@@ -186,27 +185,38 @@
 .imagen_concert img{
     /* background: burlywood; */
     width: 100%;
-    height: 200px;
+    height: 98%;
+    z-index: -1;
 }
 .imagen_concert{
     /* background: chocolate; */
 }
 .div_concert {
-    background: var(--color-7);
-    backdrop-filter: blur(5px);
+    background: none;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    width: 94%;
-    height: 90px;
+    width: 96%;
+    height: 40%;
     margin: auto;
     position: relative;
-    bottom: 105px;
+    bottom: 110px;
+    overflow: hidden;
 }
+
+.difuminado{
+    position: absolute;
+    inset: 0;
+    background: var(--color-7);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
 .div_difuminado {
-    background: transparent;
+    background: none;
     display: flex;
+    z-index: 2;
     gap: 6px;
     flex-direction: column;
     justify-content: center;
@@ -221,11 +231,13 @@
 .div_location {
     background: transparent;
     display: flex;
+    z-index: 2;
     gap: 8px;
 }
 .div_location img{
     background: transparent;
     width: 15px;
+    z-index: 2;
     height: 15px;
 }
 .div_location p{
@@ -237,11 +249,13 @@
 .div_fecha {
     background: transparent;
     display: flex;
+    z-index: 2;
     gap: 8px;
 }
 .div_fecha img{
     background: transparent;
     width: 15px;
+    z-index: 2;
     height: 15px;
 }
 .div_fecha p{
@@ -253,6 +267,7 @@
 .div_precio {
     background: transparent;
     display: flex;
+    z-index: 3;
     flex-direction: column;
     justify-content: center;
 }

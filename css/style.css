@@ -269,28 +269,3 @@
     font-family: "Inter-Semibold";
     
 }
-
-/* Carrusel */
-.carrusel-container {
-    width: 100%;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    display: flex;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-}
-
-.carrusel-track {
-    display: flex;
-    gap: 12px;
-    width: max-content;
-}
-
-.carrusel-item {
-    flex: 0 0 90%;
-    scroll-snap-align: center;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

@@ -226,6 +226,7 @@
 .div_difuminado {
     background: var(--color-7);
     backdrop-filter: blur(10px);
+    border-radius: 12px;
     padding: 5px;
     width: 95%;
     height: 90%;
@@ -316,6 +317,125 @@
     background: transparent;
     color: var(--color-1);
     font-size: 13px;
+    font-family: "Inter-Semibold";
+}
+
+
+/**************** Seccion Footer *****************/
+
+.caja_baja {
+    /* background: red; */
+    /* padding: 5px; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div_encabezado_bajo {
+    /* background: rebeccapurple; */
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-between;
+}
+.div_encabezado_bajo h3{
+    /* background: blue; */
+    font-size: 12px;
+    font-family: "Inter-Semibold";
+}
+.div_encabezado_bajo p{
+    /* background: blueviolet; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.div_eventos {
+    /* background: aqua; */
+    /* padding: 5px; */
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div_evento_individual {
+    /* background: purple; */
+    width: 49%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.imagen_evento {
+    /* background: chartreuse; */
+    display: flex;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.imagen_evento img{
+    /* background: chartreuse; */
+    width: 100%;
+}
+.div_Titulo_concierto {
+    /* background: green; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.div_Titulo_concierto h4{
+    /* background: firebrick; */
+    font-size: 10px;
+    font-family: "Inter-Semibold";
+}
+.div_ubicacion_bajo {
+    /* background: gold; */
+    width: 85%;
+    display: flex;
+    gap: 5%;
+}
+.div_ubicacion_bajo img{
+    /* background: violet; */
+    width: 9px;
+    height: 11px;
+}
+.div_ubicacion_bajo span{
+    /* background: peru; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.div_fecha_bajo {
+    /* background: yellow; */
+    width: 85%;
+    display: flex;
+    gap: 5%;
+}
+.div_fecha_bajo img{
+    /* background: grey; */
+    width: 10px;
+    height: 11px;
+}
+.div_fecha_bajo span{
+    /* background: fuchsia; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.div_precio_bajo {
+    /* background: hotpink; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+}
+.div_precio_bajo img{
+    /* background: greenyellow; */
+    width: 16px;
+    height: 16px;
+}
+.div_precio_bajo span{
+    /* background: teal; */
+    font-size: 12px;
     font-family: "Inter-Semibold";
 }
 

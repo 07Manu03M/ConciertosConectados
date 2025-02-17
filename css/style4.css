@@ -6,38 +6,32 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
-.retroceder{
-    background: var(--color-9);
-    padding: 4px 4px;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 8%;
-    height: 35px;
+.header_contenedor {
+    /* background: red; */
     position: relative;
-    bottom: 300px;
-    left: 6%;
-    z-index: 3;
-}
-.retroceder img{
-    background: red;
-    background: none;
-    z-index: 2;
-}
-
-.imagen_header{
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-}
-.imagen_header img{
     width: 100%;
     height: auto;
-    display: block;
+}
+.foto_fondo {
+    /* background: rebeccapurple; */
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.caja_link {
+    /* background: greenyellow; */
+}
+.imagen_retroceso {
+    background: var(--color-9);
+    border-radius: 6px;
+    padding: 4px 4px;
+    position: absolute;
+    right: 88%;
+    top: 15%;
 }
 
-.header_central {
+
+.div_central {
     background: var(--color-1);
     width: 85%;
     height: 140px;
@@ -52,7 +46,7 @@
 }
 .caja_padre {
     /* background: rebeccapurple; */
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin-left: 7%;
@@ -61,20 +55,23 @@
 }
 .titulito {
     /* background: palegreen; */
+    width: 100%;
     display: flex;
-    gap: 5px;
 }
 .titulito h4:nth-child(1){   
     /* background: pink; */
+    width: 60%;
     font-size: 14px;
     color: var(--color-8);
     font-family: "Inter-Semibold";
 }
 .titulito h4:nth-child(2){  
     /* background: blue;  */
+    width: 70%;
     font-size: 14px;
     color: var(--color-2);
     font-family: "Inter-Semibold";
+}
 }
 .ubication {
     /* background: brown; */

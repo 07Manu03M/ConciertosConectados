@@ -8,6 +8,8 @@
     --color-7: #2d264b83;
     --color-8: #000;
     --color-9: #ffffff57;
+    --color-10: #0092FC;
+    --color-11: #706D6D;
 }
 
 @font-face {
@@ -23,4 +25,9 @@
 @font-face {
     font-family: "inter-medium";
     src: url(../storage/font/Inter/static/Inter_18pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: "DM-Sans-Mixed";
+    src: url(../storage/font/DM_Sans/static/DMSans-Regular.ttf);
 }

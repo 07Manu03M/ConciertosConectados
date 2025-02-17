@@ -6,6 +6,8 @@
     --color-5: #FFECEC;
     --color-6: #E4FFEA;
     --color-7: #2d264b83;
+    --color-8: #000;
+    --color-9: #ffffff57;
 }
 
 @font-face {
@@ -16,4 +18,9 @@
 @font-face {
     font-family: "Inter-Regular";
     src: url(../storage/font/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter-medium";
+    src: url(../storage/font/Inter/static/Inter_18pt-Medium.ttf);
 }

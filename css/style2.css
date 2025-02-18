@@ -31,19 +31,21 @@
 }
 
 
+
 .div_central {
     background: var(--color-1);
     width: 85%;
-    height: 140px;
+    height: 25%;
     margin: auto;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 37%;
+    top: 33%;
     left: 8%;
-    gap: 16px;
+    gap: 22px;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+    object-fit: cover;
 }
 .caja_padre {
     /* background: rebeccapurple; */
@@ -138,31 +140,34 @@
     font-size: 12px;
     font-family: "inter-medium";
 }
-.encabezado_segundo{
-    /* background: red; */
-    padding: 5px;
-}
-.encabezado_segundo span{
-    /* background: rgb(133, 71, 71); */
-    padding: 5px;
-    font-size: 14px;
-    font-family: "inter-medium";
-}
 
 .contenido {
     /* background: rgb(30, 255, 0); */
-    padding: 5px;
-    width: 93%;
-    margin: 0 auto;
-    position: relative;
-    top: 80px;
+    /* padding: 5px; */
+    width: 100%;
+    height: 10%;
+    /* margin-top: 15%;
+    margin-left: 4%; */
     display: flex;
+    gap: 10px;
     flex-direction: column;
+    justify-content: space-between;
   }
+
+  .encabezado_segundo{
+    /* background: red; */
+    /* padding: 5px; */
+}
+.encabezado_segundo span{
+    /* background: rgb(133, 71, 71); */
+    /* padding: 5px; */
+    font-size: 14px;
+    font-family: "inter-medium";
+}
   
   .texto-visible {
     /* background: rgb(208, 255, 0); */
-    padding: 5px;
+    /* padding: 5px; */
     display: inline; 
     color: var(--color-11);
     font-size: 12px;
@@ -197,13 +202,48 @@
   #leer-mas:checked + label + .texto-adicional {
     /* background: rgb(255, 0, 98); */
     /* padding: 5px; */
-    display: inline; /* Muestra el texto adicional en la misma línea */
+    display: inline; 
   }
   
   #leer-mas:checked + label {
     /* background: rgb(255, 217, 0); */
     /* padding: 5px; */
-    display: none; /* Oculta el "Leer más" cuando se hace clic */
+    display: none; 
   }
+
+  .mapa_info{
+    /* background: red; */
+    /* padding: 5px; */
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mapa_info span{
+    /* background: blue; */
+  }
+
+  .mapa_info a{
+    /* background: violet; */
+    /* padding: 5px; */
+  }
+
+  .mapa_info img{
+    /* background: gold; */
+    /* padding: 5px; */
+    width: 100%;
+  }
+
+
+.caja_buy {
+}
+.information_buy {
+}
+.buy {
+}
+
   
 

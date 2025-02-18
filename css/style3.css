@@ -6,6 +6,9 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+body{
+    margin-bottom: 575px;
+}
 .header_contenedor {
     /* background: red; */
     position: relative;
@@ -35,7 +38,7 @@
 .div_central {
     background: var(--color-1);
     width: 85%;
-    height: 25%;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -145,7 +148,7 @@
     /* background: rgb(30, 255, 0); */
     /* padding: 5px; */
     width: 100%;
-    height: 10%;
+    height: auto;
     /* margin-top: 15%;
     margin-left: 4%; */
     display: flex;
@@ -215,7 +218,7 @@
     /* background: red; */
     /* padding: 5px; */
     width: 100%;
-    height: auto;
+    height: 100px;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -229,12 +232,14 @@
   .mapa_info a{
     /* background: violet; */
     /* padding: 5px; */
+    height: 260px;
   }
 
   .mapa_info img{
     /* background: gold; */
     /* padding: 5px; */
     width: 100%;
+    /* height: 100px; */
   }
 
 
@@ -288,3 +293,6 @@
     font-size: 14px;
     font-family: "inter-medium";
 }
+
+  
+

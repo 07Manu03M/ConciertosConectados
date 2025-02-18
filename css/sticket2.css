@@ -1,0 +1,30 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(130deg, var(--color-12) 0%, var(--color-13) 100% );
+}
+
+
+.header_contenedor {
+    /* background: red; */
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.caja_link {
+    /* background: greenyellow; */
+}
+.imagen_retroceso {
+    background: var(--color-9);
+    border-radius: 6px;
+    padding: 4px 4px;
+    position: absolute;
+    right: 88%;
+    top: 15%;
+}

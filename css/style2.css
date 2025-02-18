@@ -239,10 +239,54 @@
 
 
 .caja_buy {
+    background: var(--color-1);
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    line-height: 20px;
+    bottom: 0;
+    display: flex;
 }
 .information_buy {
+    /* background: blue; */
+    /* padding: 5px; */
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-left: 22px;
+}
+.information_buy p{
+    /* background: rebeccapurple; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.information_buy span{
+    /* background: green; */
+    font-size: 16px;
+    font-family: "Inter-Semibold";
 }
 .buy {
+    background: var(--color-2);
+    margin: auto;
+    margin-right: 15px;
+    padding: 8px 8px;
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.buy a{
+    background: transparent;
+    color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "inter-medium";
 }
 
   

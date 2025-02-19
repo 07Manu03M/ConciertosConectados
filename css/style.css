@@ -440,6 +440,7 @@
 }
 .div_precio_bajo span{
     /* background: teal; */
+    color: orangered;
     font-size: 12px;
     font-family: "Inter-Semibold";
 }

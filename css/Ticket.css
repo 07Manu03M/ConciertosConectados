@@ -15,7 +15,7 @@ body{
 
 .header_contenedor {
     /* background: red; */
-    width: 85%;
+    width: 90%;
     margin: auto;
     margin-top: 35px;
     display: flex;
@@ -35,6 +35,25 @@ body{
     background: var(--color-9);
     border-radius: 6px;
     padding: 4px 4px;
+}
+
+/********************** carrusel de tickes *************************/
+
+.carrusel_tickets {
+    width: 100%;
+    height: 85%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    margin-left: 2%;
+}
+.contenedor_tickets {
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    margin-left: 10%;
 }
 
 /************************** CAJA MAIN TICKET ***********************/
@@ -66,8 +85,8 @@ body{
 .caja_padre_info {
     /* background: brown; */
     padding: 5px;
-    width: 90%;
-    margin-left: 3%;
+    width: 95%;
+    margin-left: 2%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -86,6 +105,8 @@ body{
 }
 .info_titulo p{
     /* background: gray; */
+    width: 100%;
+    height: auto;
     font-size: 12px;
     font-family: "Inter-Regular";
 }
@@ -104,6 +125,7 @@ body{
     padding: 5px;
     width: 95%;
     display: flex;
+    /* gap: 10%; */
     justify-content: space-between;
 }
 
@@ -145,7 +167,7 @@ body{
     padding: 5px;
     width: 95%;
     display: flex;
-    gap: 41%;
+    gap: 40%;
 }
 .information3 {
     /* background-color: aquamarine; */
@@ -183,7 +205,7 @@ body{
     padding: 5px;
     width: 95%;
     display: flex;
-    gap: 55%;
+    gap: 53%;
 }
 .information5 {
     /* background-color: aquamarine; */
@@ -249,7 +271,7 @@ body{
 
 .coments {
     /* background: khaki; */
-    /* padding: 5px; */
+    padding: 5px;
     width: 80%;
     display: flex;
     align-items: center;
@@ -262,4 +284,5 @@ body{
     font-size: 12px;
     font-family: "Inter-Regular";
 }
+
 

@@ -3,10 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/sticket4.css">
+    <link rel="stylesheet" href="../css/Ticket.css">
     <title>Ticket Info</title>
 </head>
 <body>
-    hola mundo
+    <!------------ ENCABEZADO Y BOTON DE RETROCEDER ------------->
+
+    <header class="header_contenedor">
+        <a class="caja_link" href="../views/coldplay.html"><img class="imagen_retroceso" src="../storage/img/menorq.svg"></a>
+        <img class="menu_suspensivos" src="../storage/img/trespuntos.svg">
+    </header> 
+
+    <!----------------- CAJA MAIN TICKET ---------------->
+
+    <main class="caja_main">
+        <div class="concert_ticket">
+            <img src="../storage/img/concert-ticket.svg">
+        </div>
+
+        <!----------- TITULO DEL CONCIERTO ------------->
+
+        <div class="caja_padre_info">
+            <div class="info_titulo">
+                <span>Coldplay: Music of the Spheres</span>
+                <p>Nov 15 2023 ~ Gelora Bung Karno Stadium, Jakarta</p>
+            </div>
+
+            <!------------------- DATOS SOBRE EL TICKET Y CONCIERTO --------------------->
+
+            <div class="div_information">
+
+                <!---------------------- CAJA 1 --------------------------->
+
+                <div class="subdiv_information">
+                    <div class="information1">
+                        <p>name</p>
+                        <span>Indriyani Puspita</span>
+                    </div>
+                    <div class="information2">
+                        <p>Order Number</p>
+                        <span>CLD09738PL</span>
+                    </div>
+                </div>
+
+                <!---------------------- CAJA 2 --------------------------->
+
+                <div class="subdiv_information2">
+                    <div class="information3">
+                        <p>Date</p>
+                        <span>Nov 15 2023</span>
+                    </div>
+                    <div class="information4">
+                        <p>Time</p>
+                        <span>9:00 PM</span>
+                    </div>
+                </div>
+
+                <!---------------------- CAJA 3 --------------------------->
+
+                <div class="subdiv_information3">
+                    <div class="information5">
+                        <p>Gate</p>
+                        <span>Yellow</span>
+                    </div>
+                    <div class="information6">
+                        <p>Seat</p>
+                        <span>West B</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------- LINEA TICKET ----------------------->
+
+        <div class="lineartxd">
+            <img src="../storage/img/raya.svg">
+        </div>
+
+        <!------------------- CODIGO DE BARRAS --------------->
+
+        <div class="codigo_barras">
+            <img src="../storage/img/codigobarras.svg">
+        </div>
+
+        <!--------------------- COMENTARIOS ---------------------->
+        
+        <div class="coments">
+            <span>Scan your barcode at the entry gate</span>
+        </div>
+    </main>
 </body>
 </html>

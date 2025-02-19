@@ -9,6 +9,10 @@
 body{
     margin-bottom: 150%;
 }
+
+
+/************************************* ENCABEZADO FUNCION *****************************/
+
 .header_contenedor {
     /* background: red; */
     position: relative;
@@ -33,7 +37,7 @@ body{
     top: 15%;
 }
 
-
+/************************************** DIV CENTRAL DE INFORMACION **********************************/
 
 .div_central {
     background: var(--color-1);
@@ -50,6 +54,9 @@ body{
     border-top-right-radius: 14px;
     object-fit: cover;
 }
+
+/******************************************* CAJA DE DATOS ************************/
+
 .caja_padre {
     /* background: rebeccapurple; */
     width: 80%;
@@ -106,6 +113,9 @@ body{
     font-size: 12px;
     font-family: "Inter-Regular";
 }
+
+/************************************ PARTICIPANTES ******************************************/
+
 .personas {
     /* background: orangered; */
     width: 70%;
@@ -143,6 +153,8 @@ body{
     font-size: 12px;
     font-family: "inter-medium";
 }
+
+/****************************************** DESCRIPCION CON READ MORE ********************************/
 
 .contenido {
     /* background: rgb(30, 255, 0); */
@@ -214,6 +226,8 @@ body{
     display: none; 
   }
 
+  /**************************************** MAPA DE UBICACION *********************************/
+
   .mapa_info{
     /* background: red; */
     /* padding: 5px; */
@@ -242,6 +256,7 @@ body{
     /* height: 100px; */
   }
 
+  /*************************************** CAJA DE COMPRAR TICKET ****************************************/
 
 .caja_buy {
     background: var(--color-1);

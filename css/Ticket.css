@@ -11,6 +11,7 @@ body{
     height: 790px;
 }
 
+/********************** ENCABEZADO Y BOTON DE RETROCEDER ****************************/
 
 .header_contenedor {
     /* background: red; */
@@ -36,6 +37,8 @@ body{
     padding: 4px 4px;
 }
 
+/************************** CAJA MAIN TICKET ***********************/
+
 .caja_main {
     background: var(--color-1);
     /* padding: 5px; */
@@ -57,6 +60,9 @@ body{
     padding: 5px;
     width: 100%;
 }
+
+/****************************** TITULO DEL CONCIERTO *******************************/
+
 .caja_padre_info {
     /* background: brown; */
     padding: 5px;
@@ -83,6 +89,9 @@ body{
     font-size: 12px;
     font-family: "Inter-Regular";
 }
+
+/******************************** DATOS SOBRE EL TICKET Y CONCIERTO ***************************/
+
 .div_information {
     /* background: fuchsia; */
     padding: 5px;
@@ -97,6 +106,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/**************************************** CAJA 1 **************************************/
+
 .information1 {
     /* background-color: aquamarine; */
     padding: 5px;
@@ -125,6 +137,9 @@ body{
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
+
+/**************************************** CAJA 2 **************************************/
+
 .subdiv_information2 {
     /* background: gold; */
     padding: 5px;
@@ -160,6 +175,9 @@ body{
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
+
+/**************************************** CAJA 3 **************************************/
+
 .subdiv_information3 {
     /* background: gold; */
     padding: 5px;
@@ -195,6 +213,9 @@ body{
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
+
+/************************************ LINEA TICKET ***************************/
+
 .lineartxd {
     /* background: turquoise; */
     /* padding: 5px; */
@@ -207,6 +228,10 @@ body{
     /* padding: 5px; */
     width: 100%;
 }
+
+
+/********************************* CODIGO DE BARRAS *************************/
+
 .codigo_barras {
     /* background: indigo; */
     /* padding: 5px; */
@@ -218,6 +243,10 @@ body{
     width: 85%;
     margin-left: 8%;
 }
+
+/************************* COMENTARIOS ****************************/
+
+
 .coments {
     /* background: khaki; */
     /* padding: 5px; */

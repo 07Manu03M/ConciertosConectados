@@ -75,7 +75,7 @@
     font-family: "Inter-Regular";
 }
 
-/* **************** Carrusel 1 *************** */
+/* ************************************** Carrusel 1 *****************************************/
 
 .carrusel-container{
     /* background: aqua; */
@@ -93,7 +93,7 @@
     font-family: "Inter-Regular";
 }
 
-/********* Decoracion por parrafos ************/
+/*************************************** Decoracion por parrafos ****************************/
 
 .carrusel-1 p:nth-child(1) {
     background: var(--color-3); 
@@ -183,7 +183,7 @@
 }
 
 
-/* carrusel :) */
+/**************************** carrusel de conciertos ******************************/
 
 .carrusel_principal {
     width: 100%;
@@ -199,6 +199,8 @@
     width: 100%;
     margin-left: 10%;
 }
+
+/************************************ CAJA DE CONCIERTO ****************************/
 
 .div_papa {
     /* background: red; */
@@ -223,6 +225,9 @@
     width: 100%;
     height: 100%;
 }
+
+/****************************************** CAJA DE DIFUMINADO ****************************/
+
 .div_difuminado {
     background: var(--color-7);
     backdrop-filter: blur(10px);
@@ -321,7 +326,7 @@
 }
 
 
-/**************** Seccion Footer *****************/
+/************************************* Seccion Footer ********************************/
 
 .caja_baja {
     /* background: red; */

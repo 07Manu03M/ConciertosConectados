@@ -8,7 +8,7 @@
 
 body{
     background: linear-gradient(-40deg, var(--color-13), var(--color-12));
-    height: 710px;
+    height: 790px;
 }
 
 
@@ -37,28 +37,29 @@ body{
 }
 
 .caja_main {
-    background: red;
-    padding: 5px;
+    background: var(--color-1);
+    /* padding: 5px; */
+    border-radius: 20px;
     width: 90%;
-    height: auto;
+    height: 86%;
     margin: auto;
     margin-top: 10%;
 }
 .concert_ticket {
     /* background: rebeccapurple; */
-    /* padding: 5px; */
+    padding-top: 10px;
     width: 95%;
     height: auto;
     margin: 2.6%;
 }
 .concert_ticket img{
     /* background: blue; */
-    /* padding: 5px; */
+    padding: 5px;
     width: 100%;
 }
 .caja_padre_info {
     /* background: brown; */
-    /* padding: 5px; */
+    padding: 5px;
     width: 90%;
     margin-left: 3%;
     display: flex;
@@ -67,7 +68,7 @@ body{
 }
 .info_titulo {
     /* background: violet; */
-    /* padding: 5px; */
+    padding: 5px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -83,145 +84,153 @@ body{
     font-family: "Inter-Regular";
 }
 .div_information {
-    background: fuchsia;
+    /* background: fuchsia; */
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 .subdiv_information {
-    background: gold;
+    /* background: gold; */
     padding: 5px;
     width: 95%;
     display: flex;
     justify-content: space-between;
 }
 .information1 {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 5px;
 }
 .information1 p{
-    background: forestgreen;
+    /* background: forestgreen; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information1 span{
-    background: greenyellow;
+    /* background: greenyellow; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .information2 {
-    background-color: rgb(79, 156, 131);
+    /* background-color: rgb(79, 156, 131); */
     padding: 5px;
 }
 .information2 p{
-    background: thistle;
+    /* background: thistle; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information2 span{
-    background: teal;
+    /* background: teal; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .subdiv_information2 {
-    background: gold;
+    /* background: gold; */
     padding: 5px;
     width: 95%;
     display: flex;
-    gap: 29%;
+    gap: 41%;
 }
 .information3 {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 5px;
 }
 .information3 p{
-    background: forestgreen;
+    /* background: forestgreen; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information3 span{
-    background: greenyellow;
+    /* background: greenyellow; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .information4 {
-    background-color: rgb(79, 156, 131);
+    /* background-color: rgb(79, 156, 131); */
     padding: 5px;
 }
 .information4 p{
-    background: thistle;
+    /* background: thistle; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information4 span{
-    background: teal;
+    /* background: teal; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .subdiv_information3 {
-    background: gold;
+    /* background: gold; */
     padding: 5px;
     width: 95%;
     display: flex;
-    gap: 44%;
+    gap: 55%;
 }
 .information5 {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 5px;
 }
 .information5 p{
-    background: forestgreen;
+    /* background: forestgreen; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information5 span{
-    background: greenyellow;
+    /* background: greenyellow; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .information6 {
-    background-color: rgb(79, 156, 131);
+    /* background-color: rgb(79, 156, 131); */
     padding: 5px;
 }
 .information6 p{
-    background: thistle;
+    /* background: thistle; */
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information6 span{
-    background: teal;
+    /* background: teal; */
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .lineartxd {
-    background: turquoise;
-    padding: 5px;
-    width: 100%;
+    /* background: turquoise; */
+    /* padding: 5px; */
+    width: 102%;
+    position: relative;
+    right: 1%;
 }
 .lineartxd img{
-    background: ghostwhite;
-    padding: 5px;
+    /* background: ghostwhite; */
+    /* padding: 5px; */
     width: 100%;
 }
 .codigo_barras {
-    background: indigo;
-    padding: 5px;
+    /* background: indigo; */
+    /* padding: 5px; */
     width: 100%;
 }
 .codigo_barras img{
-    background: navy;
+    /* background: navy; */
     padding: 5px;
     width: 85%;
     margin-left: 8%;
 }
 .coments {
-    background: khaki;
-    padding: 5px;
-    width: 70%;
+    /* background: khaki; */
+    /* padding: 5px; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
+    /* margin-left: 15%; */
 }
 .coments span{
-    background: brown;
+    /* background: brown; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
 }
 

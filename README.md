@@ -31,3 +31,8 @@ Las bandas que se han usado para estas paginas son:
    1. Coldplay
    2. Muse
    3. One direction
+   4. BlackPink
+   5. SNSD
+   6. The Weeknd
+   7. ITZY
+   8. Baby Metal
